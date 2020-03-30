@@ -1,9 +1,11 @@
 package com.intuit.repository;
 
-import com.intuit.entity.Job;
+import com.intuit.entity.Project;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface JobRepository extends JpaRepository<Job, Long>{}
+public interface ProjectRepository extends JpaRepository<Project, Long> {
+
+}
